@@ -1,0 +1,514 @@
+html{
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(220, 161, 106);
+}
+
+li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+display: flex;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+justify-content: flex-end;
+text-decoration: none;
+padding: 20px 7%;
+background-color: #322406;
+}
+
+header .logo{
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+}
+
+header .navbar ul li{
+    list-style: none;
+    position: relative;
+    float: left;
+}
+
+header .navbar ul li a{
+padding-left: 0;
+padding-bottom: 20px;
+float: left;
+}
+
+.dropbtn {
+    background-color: #322406;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: all 0,3s ease 0s; 
+    float: right;
+    transform: translateY(20%) translateX(50%);
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #d7c3a5;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {background-color: #f1f1f1}
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown:hover .dropbtn {
+    background-color: #332308;
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  input{
+    width: 100%;
+  }
+
+  input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    resize: none;
+  }
+
+  fieldset{
+    margin-top: 50px;
+  }
+
+  fieldset legend{
+    font-family: margin;
+    font-size: 20pt;
+  }
+
+@font-face{
+    font-family: margin;
+    src:url(Margin.otf);
+}
+
+.container {
+    display: flex;
+  }
+  
+  .container img {
+    height: 100%;
+    width: 600px; 
+    margin-right: 0; 
+    float: right;
+  }
+
+h1 {
+    font-family: margin;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100pt;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    top: 50%;
+    right: 50%;
+    transform: translateY(50%) translateX(50%);
+    color:#332308;
+}
+
+h2 {
+    font-family: margin;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 35pt;
+}
+
+h3 {
+    font-family: margin;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 35pt;
+}
+
+h4{
+    font-family: margin;
+    font-size: 40pt;
+}
+
+
+.button {
+    background-color: #332308;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+.child{
+    position: relative;
+    top: 50%;
+    right: 6%;
+}
+
+.card{
+  margin-top: 10%;
+  margin-left: 0;
+  width: 100%;
+  background-size: cover;
+}
+
+table {
+    border-collapse: collapse;
+    width: 300px;
+    margin: 20px auto;
+  } 
+  
+.opening-hours{
+    margin-bottom: 100px;
+    width: 300px;
+    margin: 20px auto;
+}
+
+  th,td {
+   background-color: #d7c3a5;
+   padding-bottom: 10px;
+   text-align: center;
+  }
+  
+  table.a {
+    table-layout: auto;
+    width: 180px;  
+  }
+
+  .container3{
+    text-align: center;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+  .flex-container > div {
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  
+body{
+    margin-inline: auto;
+    margin-block: 50px;
+    width: 70%;
+    padding: 25px;  
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: rgb(220, 161, 106);
+    }
+    .container{
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+    }
+  }
+
+  .bg { 
+    width: 50%;
+    height: 100%;
+    background-image: url("fotos/foodtruck_pinterest_größer.png");
+    margin: 0;
+    padding: 0; 
+    top: 0; right: 0;
+    background-size: cover;
+    background-position: left;
+    object-fit: cover;
+    min-height: 75%;
+    
+    float: left;
+ }
+
+ .aside {
+    background-color: #d7c3a5;
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    float: right;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+ }
+
+ .textbox{
+    background-color: #d7c3a5;
+    padding: 15px;
+ }
+
+ p1{
+        font-size: 15px;
+        padding: 8px 12px;
+        bottom: 8px;
+        width: 100%;
+        margin-top: 20px;
+        padding-bottom: 200px;
+        padding-left: 200px;
+        text-align: center;       
+        box-sizing: border-box;
+        background-color: #d7c3a5;
+        float: left;
+        
+ }
+
+p2{
+color: #322406;
+font-size: small;
+text-align: left;
+}
+
+p3{
+    margin-right: 10px;
+}
+
+  .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        bottom: 8px;
+        width: 100%;
+        text-align: left;
+        margin-bottom: 10px;
+      }
+
+
+      p4{
+            font-size: 12pt;
+        }
+
+    .menue{
+        margin-top: 10px;
+    }
+      
+      @media only screen and (max-width: 300px) {
+        .prev, .next,.text {font-size: 11px}
+      }
+
+      body {font-family: Arial, Helvetica, sans-serif;}
+      * {box-sizing: border-box;}
+      
+      input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+      
+      input[type=submit] {
+        background-color: #332308;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #433113;
+      }
+      
+      .container2 {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+      }
+
+      .heading {
+        font-size: 40px;
+        margin-right: 25px;
+        font-family: margin;
+      }
+      
+      .fa {
+        font-size: 25px;
+      }
+      
+      .checked {
+        color: orange;
+      }
+
+      .side {
+        float: left;
+        width: 15%;
+        margin-top:10px;
+      }
+      
+      .middle {
+        margin-top:10px;
+        float: left;
+        width: 70%;
+      }
+      
+      .right {
+        text-align: right;
+      }
+
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      .bar-container {
+        width: 100%;
+        background-color: #f1f1f1;
+        text-align: center;
+        color: white;
+      }
+
+.bar-5 {width: 65%; height: 18px; background-color: #34230a;}
+.bar-4 {width: 25%; height: 18px; background-color: #34230a;}
+.bar-3 {width: 4%; height: 18px; background-color: #34230a;}
+.bar-2 {width: 0%; height: 18px; background-color: #34230a;}
+.bar-1 {width: 0%; height: 18px; background-color: #34230a;}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 60px;
+}
+
+.row:after {
+    display: table;
+    clear: both;
+  }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+  .avatar img{
+    border-radius: 100%;
+    padding-right: 50px;
+    margin: 20px;
+  }
+
+
+  .picture img{
+    border-radius: 100%;
+    padding-right: 180px;
+    margin: 20px;
+    transform: translateX(-20%);
+  }
+
+  .textbox2{
+    float: right;
+    background-color: #d7c3a5;
+    padding: 15px;
+    width: 60%;
+    transform: translateX(-80%);
+  }
+
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .day {
+    padding: 10px;
+    color: white;
+  }
+
+  .monday {
+    background-color: #e89652; 
+  }
+
+  .tuesday {
+    background-color: #b04d4d; 
+  }
+
+  .wednesday {
+    background-color: #8bc7f8; 
+  }
+
+  .thursday {
+    background-color: #38693d; 
+  }
+  
+  .friday {
+    background-color: #5a5aa6; 
+  }
+
+  .saturday {
+    background-color: #5a5aa6; 
+  }
+
+
+  .opening-hours {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  
+  @media screen and (max-width: 420px) {
+    .weekdays li, .days li {width: 12.5%;}
+    .days li .active {padding: 2px;}
+  }
+  
+  @media screen and (max-width: 290px) {
+    .weekdays li, .days li {width: 12.2%;}
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f6ebeb;
+    color: rgb(16, 15, 15);
+    text-align:right;
+    padding-top: 30px;
+  }
